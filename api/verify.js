@@ -3,8 +3,8 @@ export default async function handler(req, res) {
   // FILTER METHOD
   if (req.method !== "POST") {
     return res.status(405).json({
-      status: "apa",
-      message: "i don't know why?"
+      status: "TG: @resdinasin",
+      message: "Please Don't Bully Me"
     })
   }
 
@@ -16,7 +16,7 @@ export default async function handler(req, res) {
 
   // RESPONSE SELALU ACTIVE
   return res.status(200).json({
-    status: "active",
-    message: "crack by dina"
+    status: "autowin",
+    message: "Crack by tg@resdinasin"
   })
 }
