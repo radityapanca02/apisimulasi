@@ -2,8 +2,8 @@ export default async function handler(req, res) {
 
   if (req.method !== "POST") {
     return res.status(405).json({
-      status: false,
-      message: "CRACK BY TG@resdinasin"
+      status: "TG: @resdinasin",
+      message: "Please Don't Bully Me"
     })
   }
 
@@ -11,7 +11,7 @@ export default async function handler(req, res) {
 
   await new Promise(resolve => setTimeout(resolve, 1200))
 
-  return res.status(200).json({
+  return res.status(403).json({
     status: false,
     message: "CRACK BY TG@resdinasin"
   })
