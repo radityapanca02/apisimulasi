@@ -33,7 +33,6 @@ client_user : ${client_tnuser}
 device_info : ${device_info}
 ip          : ${ip}
 time        : ${time}
-locate      : ${locate}
 `;
 
     // Kirim ke Telegram
