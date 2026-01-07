@@ -13,6 +13,6 @@ export default async function handler(req, res) {
 
   return res.status(403).json({
     status: false,
-    message: "CRACK BY TG@resdinasin"
+    message: "Wait i want to update @resdinasin"
   })
 }
