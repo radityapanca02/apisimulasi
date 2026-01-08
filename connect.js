@@ -26,5 +26,3 @@ export default async function handler(req, res) {
         }
     });
 }
-
-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
